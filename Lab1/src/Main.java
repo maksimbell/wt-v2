@@ -1,8 +1,11 @@
 import task1.Task1;
 import task2.Task2;
 import task3.Task3;
+import task4.Task4;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +21,17 @@ public class Main {
         double[] values = task3.solve(Math.PI, 2 * Math.PI, 0.1);
         for (int i = 0; i < values.length; i++) {
             System.out.println(values[i]);
+        }
+
+        task4.Task4 task4 = new Task4();
+        ArrayList<Integer> indices = task4.solve(10);
+        if(indices.isEmpty()){
+            System.out.println("No prime numbers");
+        }else{
+            Iterator<Integer> iterator = indices.iterator();
+            while(iterator.hasNext()){
+                System.out.println(iterator.next());
+            }
         }
     }
 }
