@@ -17,7 +17,7 @@ public class Task4 {
 
         for (int i = 0; i < length; i++) {
             BigInteger current = BigInteger.valueOf(array[i]);
-            if(current.isProbablePrime((int) Math.log(array[i])))
+            if (current.isProbablePrime((int) Math.log(array[i])))
                 indices.add(i);
         }
 

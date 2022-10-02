@@ -3,6 +3,7 @@ import task2.Task2;
 import task3.Task3;
 import task4.Task4;
 import task5.Task5;
+import task6.Task6;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -31,20 +32,31 @@ public class Main {
         Task4 task4 = new Task4();
         ArrayList<Integer> indices = task4.solve(10);
         System.out.println("\n\n4");
-        if(indices.isEmpty()){
+        if (indices.isEmpty()) {
             System.out.println("No prime numbers");
-        }else{
+        } else {
             System.out.println("Prime numbers indices:");
             Iterator<Integer> iterator = indices.iterator();
-            while(iterator.hasNext()){
+            while (iterator.hasNext()) {
                 System.out.print(iterator.next() + " ");
             }
         }
 
         Task5 task5 = new Task5();
-        int [] sequence = {1, 2, 4, 5, 7, 6, 8, 9, 11};
+        int[] sequence = {1, 2, 4, 5, 7, 6, 8, 9, 11};
         int elementsNumber = task5.solve(sequence);
         System.out.println("\n\n5");
         System.out.print("Elements min number to delete:" + elementsNumber);
+
+        Task6 task6 = new Task6();
+        int[] vector = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[][] matrix = task6.solve(vector);
+        System.out.println("\n\n6");
+        for (int i = 0; i < vector.length; i++) {
+            for (int j = 0; j < vector.length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }

@@ -2,7 +2,7 @@ package task5;
 
 public class Task5 {
     // 1 3 5 7 6 1  0 11 13
-    public  int solve(int[] sequence){
+    public int solve(int[] sequence) {
         int maxAscendingLength = 0;
         int currentAscendingLength;
         boolean isAscending;
