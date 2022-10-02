@@ -2,6 +2,7 @@ import task1.Task1;
 import task2.Task2;
 import task3.Task3;
 import task4.Task4;
+import task5.Task5;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -10,24 +11,24 @@ import java.util.Iterator;
 public class Main {
     public static void main(String[] args) {
 
-        task1.Task1 task1 = new Task1();
+        Task1 task1 = new Task1();
         double answer = task1.solve(1, 2);
         System.out.println("\n1");
         System.out.println(answer);
 
-        task2.Task2 task2 = new Task2();
+        Task2 task2 = new Task2();
         boolean contains = task2.solve(new Point(0, 0));
         System.out.println("\n2");
         System.out.println(contains);
 
-        task3.Task3 task3 = new Task3();
+        Task3 task3 = new Task3();
         double[] values = task3.solve(Math.PI, 4, 0.1);
         System.out.println("\n3");
         for (int i = 0; i < values.length; i++) {
             System.out.print(values[i] + " ");
         }
 
-        task4.Task4 task4 = new Task4();
+        Task4 task4 = new Task4();
         ArrayList<Integer> indices = task4.solve(10);
         System.out.println("\n\n4");
         if(indices.isEmpty()){
@@ -39,5 +40,11 @@ public class Main {
                 System.out.print(iterator.next() + " ");
             }
         }
+
+        Task5 task5 = new Task5();
+        int [] sequence = {1, 2, 4, 5, 7, 6, 8, 9, 11};
+        int elementsNumber = task5.solve(sequence);
+        System.out.println("\n\n5");
+        System.out.print("Elements min number to delete:" + elementsNumber);
     }
 }
