@@ -29,24 +29,5 @@ public class Main {
             System.out.print(values[i] + " ");
         }
 
-        Task4 task4 = new Task4();
-        ArrayList<Integer> indices = task4.solve(10);
-        System.out.println("\n\n4");
-        if (indices.isEmpty()) {
-            System.out.println("No prime numbers");
-        } else {
-            System.out.println("Prime numbers indices:");
-            Iterator<Integer> iterator = indices.iterator();
-            while (iterator.hasNext()) {
-                System.out.print(iterator.next() + " ");
-            }
-        }
-
-        Task5 task5 = new Task5();
-        int[] sequence = {1, 2, 4, 5, 7, 6, 8, 9, 11};
-        int elementsNumber = task5.solve(sequence);
-        System.out.println("\n\n5");
-        System.out.print("Elements min number to delete:" + elementsNumber);
-
     }
 }

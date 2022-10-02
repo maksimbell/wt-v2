@@ -11,9 +11,9 @@ public class Task6 {
     private static int[] getVector(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter vector length: ");
-        int arrSize = sc.nextInt();
-        int[] array = new int[arrSize];
-        for (int i = 0; i < arrSize; i++) {
+        int length = sc.nextInt();
+        int[] array = new int[length];
+        for (int i = 0; i < length; i++) {
             System.out.println("Input element " + (i+1));
             array[i] = sc.nextInt();
         }
