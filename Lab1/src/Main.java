@@ -48,15 +48,5 @@ public class Main {
         System.out.println("\n\n5");
         System.out.print("Elements min number to delete:" + elementsNumber);
 
-        Task6 task6 = new Task6();
-        int[] vector = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int[][] matrix = task6.solve(vector);
-        System.out.println("\n\n6");
-        for (int i = 0; i < vector.length; i++) {
-            for (int j = 0; j < vector.length; j++) {
-                System.out.print(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
     }
 }
