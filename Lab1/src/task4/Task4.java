@@ -11,7 +11,7 @@ public class Task4 {
         Random rand = new Random();
 
         for (int i = 0; i < length; i++) {
-            array[i] = rand.nextInt();
+            array[i] = rand.nextInt(100);
         }
         ArrayList<Integer> indices = new ArrayList<Integer>();
 
