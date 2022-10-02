@@ -22,12 +22,6 @@ public class Main {
         System.out.println("\n2");
         System.out.println(contains);
 
-        Task3 task3 = new Task3();
-        double[] values = task3.solve(Math.PI, 4, 0.1);
-        System.out.println("\n3");
-        for (int i = 0; i < values.length; i++) {
-            System.out.print(values[i] + " ");
-        }
 
     }
 }
