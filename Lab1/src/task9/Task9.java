@@ -1,7 +1,5 @@
 package task9;
-
 import java.awt.*;
-import java.util.Arrays;
 
 public class Task9 {
     public static void main(String[] args) {
