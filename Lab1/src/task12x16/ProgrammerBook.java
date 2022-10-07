@@ -1,8 +1,14 @@
-package task12;
+package task12x16;
 
 public class ProgrammerBook extends Book {
     private String language;
     private int level;
+
+    public ProgrammerBook(String title, String author, int price, ISBN isbn, String language, int level) {
+        super(title, author, price, isbn);
+        this.language = language;
+        this.level = level;
+    }
 
     @Override
     public int hashCode() {
@@ -17,8 +23,6 @@ public class ProgrammerBook extends Book {
 
     @Override
     public String toString() {
-        return "programmerBook: { language:" + this.language +
-                ", level: " + this.level +
-                " }";
+        return "programmerBook: { language:" + this.language + ", level: " + this.level + " }";
     }
 }

@@ -5,7 +5,7 @@ import static java.lang.Math.*;
 public class Task1 {
 
     public static void main(String[] args){
-        double answer = solve(1, 2);
+        double answer = solve(0, 2);
         System.out.println(answer);
     }
     private static double solve(double x, double y) {

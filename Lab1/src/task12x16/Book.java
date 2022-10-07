@@ -1,4 +1,4 @@
-package task12;
+package task12x16;
 
 public class Book implements Comparable<Book>, Cloneable {
     private String title;
@@ -7,6 +7,16 @@ public class Book implements Comparable<Book>, Cloneable {
     private static int edition;
     private ISBN isbn;
 
+    public String getTitle(){
+        return this.title;
+    }
+
+    public  Book(String title, String author, int price, ISBN isbn){
+        this.title = title;
+        this.author = author;
+        this.price = price;
+        this.isbn = isbn;
+    }
     @Override
     public int hashCode() {
         return (31 * title.hashCode() + 31 * author.hashCode() + 31 * price);
@@ -24,6 +34,7 @@ public class Book implements Comparable<Book>, Cloneable {
         return "book: { title:" + this.title +
                 ", author: " + this.author +
                 ", price: " + this.price +
+                ", isbn: " + this.isbn +
                 " }";
     }
 
