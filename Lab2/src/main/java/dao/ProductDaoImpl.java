@@ -14,8 +14,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class ProductDaoImpl implements ProductDAO {
-    private static final String PATH
-            = "C:\\Users\\db.xml";
+    private static final String PATH = "C:\\Users\\maksimbell\\bsuir\\5sem\\wt\\labs\\Lab2\\data/xml";
 
     @Override
     public List<Product> find(Criteria criteria) {
