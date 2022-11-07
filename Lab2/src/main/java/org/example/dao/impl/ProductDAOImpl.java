@@ -16,7 +16,7 @@ import java.util.List;
 public class ProductDAOImpl implements ProductDAO {
 
     private static final String PATH
-            = "C:\\Users\\fromt\\IdeaSpace\\WTLab2\\src\\main\\resources\\datafolder\\db.xml";
+            = "C:\\Users\\maksimbell\\bsuir\\5sem\\wt\\labs\\Lab2\\data.xml";
 
     @Override
     public List<Product> find(Criteria criteria) throws DAOException {
