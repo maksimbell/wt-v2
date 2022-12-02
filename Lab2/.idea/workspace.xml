@@ -5,8 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ac76d0-b2c6-4fa6-8609-476e15c6e1c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/exception/DAOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/ProductDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/ProductWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Fridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Kettle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Oven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entity/criteria/Criteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/KettleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/KettleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/storage/KettleStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/storage/ProductStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/storage/impl/KettleStorageImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/storage/impl/ProductStorageImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/ProductDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/exception/DAOException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/impl/ProductDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/dao/impl/ProductWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/entity/Fridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/entity/Kettle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/entity/Oven.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/entity/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/entity/criteria/Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/KettleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/KettleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/service/impl/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/storage/KettleStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/storage/ProductStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/storage/impl/KettleStorageImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/storage/impl/ProductStorageImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +77,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maksimbell/bsuir/5sem/tests/wTf&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/maksimbell/bsuir/5sem/tests",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.storage.impl" />
@@ -83,6 +126,7 @@
       <workItem from="1667822024020" duration="1567000" />
       <workItem from="1667823778747" duration="2015000" />
       <workItem from="1667825982064" duration="959000" />
+      <workItem from="1669817325056" duration="227000" />
     </task>
     <servers />
   </component>
