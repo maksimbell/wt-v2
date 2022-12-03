@@ -37,10 +37,10 @@ public class Server {
 
     private void startServer() {
         try {
-            System.out.println("Server is running . . .");
+            System.out.println("Server is running...");
             while (!serverSocket.isClosed()) {
                 var socket = serverSocket.accept();
-                System.out.println("Someone has connected");
+                System.out.println("New user detected");
                 var dataInputStream = new DataInputStream(socket.getInputStream());
 
                 int loginLength = dataInputStream.readInt();

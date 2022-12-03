@@ -24,6 +24,7 @@ public class Client {
             this.dataOutputStream = new DataOutputStream(socket.getOutputStream());
             this.username = username;
             this.password = password;
+
         } catch (IOException e) {
             closeEverything(socket, dataInputStream, dataOutputStream);
         }

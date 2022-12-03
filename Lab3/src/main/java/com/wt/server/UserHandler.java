@@ -54,9 +54,9 @@ public class UserHandler implements Runnable {
         while (socket.isConnected()) {
             try {
                 String initMessage = """
-                    1. Show all cases
-                    2. Create case
-                    3. Change case
+                    1. Show
+                    2. Create
+                    3. Change
                     """;
 
                 sendMessage(initMessage);

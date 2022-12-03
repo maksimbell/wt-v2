@@ -102,15 +102,15 @@ public class AdminHandler implements Runnable {
     }
 
     private Case parseCases() throws IOException {
-        sendMessage("Please enter card num");
+        sendMessage("Enter card num");
         var cardNum = getMessageFromClient();
-        sendMessage("Please enter faculty");
+        sendMessage("Enter faculty");
         var faculty = getMessageFromClient();
-        sendMessage("Please enter specialty");
+        sendMessage("Enter specialty");
         var specialty = getMessageFromClient();
-        sendMessage("Please enter name");
+        sendMessage("Enter name");
         var name = getMessageFromClient();
-        sendMessage("Please enter surname");
+        sendMessage("Enter surname");
         var surname = getMessageFromClient();
 
         return new Case(cardNum, faculty, specialty, name, surname);
