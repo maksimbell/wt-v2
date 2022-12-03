@@ -1,4 +1,4 @@
-package client;
+package com.wt.client;
 
 import java.io.*;
 import java.net.ConnectException;
