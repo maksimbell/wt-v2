@@ -5,6 +5,7 @@ import java.io.*;
 import com.example.lab4.controller.command.Command;
 import com.example.lab4.controller.command.CommandFactory;
 import com.example.lab4.controller.command.CommandResult;
+import com.example.lab4.exception.ServiceException;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;

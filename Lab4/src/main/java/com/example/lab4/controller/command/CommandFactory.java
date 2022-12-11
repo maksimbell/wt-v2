@@ -1,11 +1,11 @@
 package com.example.lab4.controller.command;
 
-import by.bsuir.task.controller.command.admin.AddRoomCommand;
-import by.bsuir.task.controller.command.admin.DeoccupyRoomCommand;
-import by.bsuir.task.controller.command.admin.ShowRoomsCommand;
-import by.bsuir.task.controller.command.common.*;
-import by.bsuir.task.controller.command.user.MainPageCommand;
-import by.bsuir.task.controller.command.user.MakeOrderCommand;
+import com.example.lab4.controller.command.admin.AddRoomCommand;
+import com.example.lab4.controller.command.admin.MakeRoomCommand;
+import com.example.lab4.controller.command.admin.ShowRoomsCommand;
+import com.example.lab4.controller.command.common.*;
+import com.example.lab4.controller.command.user.MainPageCommand;
+import com.example.lab4.controller.command.user.OrderCommand;
 
 public class CommandFactory {
     private static final CommandFactory INSTANCE = new CommandFactory();
@@ -41,15 +41,15 @@ public class CommandFactory {
             case ADD_ROOM:
                 return new AddRoomCommand();
             case MAKE_ORDER:
-                return new MakeOrderCommand();
+                return new OrderCommand();
             case DEOCCUPY_ROOM:
-                return new DeoccupyRoomCommand();
+                return new MakeRoomCommand();
             case LOG_OUT:
-                return new LogOutCommand();
+                return new LogoutCommand();
             case START_PAGE:
                 return new StartPageCommand();
             case SIGN_UP:
-                return new SignUpCommand();
+                return new SignupCommand();
             case START_LOGIN:
                 return new StartLoginCommand();
             default:
